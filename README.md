@@ -8,7 +8,7 @@ A running website using a HTML,CSS,BOOTSTRAP,PHP AND JS
 
 ### Click Me button output 
 ![image](https://user-images.githubusercontent.com/82567656/205501389-7ed15f84-0146-4508-ba37-1bc8609ff18b.png)
-###Local hosting database structure
+### Local hosting database structure
 ![image](https://user-images.githubusercontent.com/82567656/205501435-98281d62-a130-4b53-a860-ee7351809242.png)
 
 
