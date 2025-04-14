@@ -1,0 +1,3 @@
+Disallow
+/secr3t
+/notes
