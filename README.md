@@ -11,10 +11,6 @@ A running website using a HTML,CSS,BOOTSTRAP,PHP AND JS
 ### Local hosting database structure
 ![image](https://user-images.githubusercontent.com/82567656/205501435-98281d62-a130-4b53-a860-ee7351809242.png)
 
-
-### More Info button output in Home page (MODAL)
-![image](https://user-images.githubusercontent.com/82567656/205501450-f9e75f50-d281-4851-bf46-7e090e2d8be5.png)
-
 ### About page
 ![image](https://user-images.githubusercontent.com/82567656/205501463-638d5357-bc5b-46bf-921a-db969a8d2a22.png)
 
