@@ -14,6 +14,3 @@ A running website using a HTML,CSS,BOOTSTRAP,PHP AND JS
 ### About page
 ![image](https://user-images.githubusercontent.com/82567656/205501463-638d5357-bc5b-46bf-921a-db969a8d2a22.png)
 
-### Contact page
-![image](https://user-images.githubusercontent.com/82567656/205501478-de394d2a-b1dc-42c8-8aec-1615f6ddf8a3.png)
-
