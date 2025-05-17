@@ -57,5 +57,6 @@
   }
 
   initParallax();
+  //hello
 })(); // End of use strict
 
