@@ -1,1 +1,41 @@
-(function(){const _$x1=["Lk2","Jv8","Rw5","Mz9"];const _$y2={a1:73,b2:29,c3:11};let _$z3=0;function _$d4(a){return new Promise(_$r=>setTimeout(_$r,a))}async function _$k9(){console.log(">>> System Booting...");for(let _$i=0;_$i<_$x1.length;_$i++){console.log(">>> Executing Module: "+_$x1[_$i]);_$z3+=_$y2.c3*_$i;await _$d4(150+100)}console.log(">>> Sequence Complete.")}function _$v7(){const _$data=atob("VVNUUHt5MHVyM19hdzNzMG1lX3RoIXMgaTVfdGgzX2YhbkBMX0ZsNGchfQ==");console.log(">>> Data retrieved.");return _$data}async function _$main(){await _$k9();const _$payload=_$v7();console.log(">>> Task Finished.")}_$main()})();
+(function(){
+    const $hexChunks = [
+        "51", "31", "4e", "50", "52", "33", "74", "35",
+        "4d", "48", "56", "79", "4d", "31", "39", "68",
+        "64", "7a", "4e", "7a", "4d", "47", "31", "6c",
+        "58", "33", "52", "6f", "49", "58", "4d", "67",
+        "61", "54", "56", "66", "64", "47", "67", "7a",
+        "58", "32", "59", "68", "62", "6b", "42", "4d",
+        "58", "30", "5a", "73", "4e", "47", "63", "68",
+        "66", "51", "3d", "3d"
+    ];
+
+    const $utils = {
+        delay: (t) => new Promise(res => setTimeout(res, t)),
+        status: ["Recon Init", "Loading Scripts", "Parsing..."]
+    };
+
+    async function $bootSequence() {
+        console.log(">>> Booting OSINT Modules...");
+        for (let i = 0; i < $utils.status.length; i++) {
+            console.log(">>>", $utils.status[i]);
+            await $utils.delay(100 + Math.random() * 100);
+        }
+        console.log(">>> OSINT Engine Ready.");
+    }
+
+    function $decodeFlag() {
+        const base64 = $hexChunks.map(hex => String.fromCharCode(parseInt(hex, 16))).join('');
+        const flag = atob(base64);
+        console.log(">>> Data Stream Reconstructed.");
+        return flag;
+    }
+
+    async function $main() {
+        await $bootSequence();
+        const flag = $decodeFlag();
+        console.log(">>> FLAG:", flag);
+    }
+
+    $main();
+})();
